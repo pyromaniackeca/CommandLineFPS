@@ -73,6 +73,7 @@
 using namespace std;
 
 #include <stdio.h>
+#include <math.h>
 #include <Windows.h>
 
 int nScreenWidth = 120;			// Console Screen Size X (columns)
@@ -97,8 +98,8 @@ int main()
 
 	// Create Map of world space # = wall block, . = space
 	wstring map;
-	map += L"#########.......";
-	map += L"#...............";
+	map += L"################";
+	map += L"#..............#";
 	map += L"#.......########";
 	map += L"#..............#";
 	map += L"#......##......#";
